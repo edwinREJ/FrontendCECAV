@@ -1,0 +1,9 @@
+.card-actions-noticias {
+    display: flex; 
+    align-items: center;      
+    width: 40%;              
+    margin-top: 20px !important;
+    padding-bottom: 20px !important; 
+    margin-left: 20px;   
+}
+

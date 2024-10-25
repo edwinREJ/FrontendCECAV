@@ -1,38 +1,20 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button-new {
+  background-color: #000066 !important;
   color: white;
+  cursor: pointer;    /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Animación para color de fondo y borde */
+  text-align: center; /* Centra el texto dentro del botón */
+  margin: 10px;
+  border: 2px solid #000066 !important;  /* Borde inicial azul */
+  border-radius: 15px !important;  /* Bordes ligeramente redondeados */
+  padding: 10px 20px;  /* Ajuste de tamaño del botón */
+  font-size: 14px !important; /* Ajusta el tamaño de la letra */
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-new:hover {
+  background-color: white !important; /* Cambia el color de fondo al pasar el ratón */
+  color: #000066 !important;          /* Cambia el color del texto al pasar el ratón */
+  border-color: #000066 !important;   /* Mantiene el borde azul */
+  border-radius: 15px; /* Cambia los bordes a redondeados completos al pasar el ratón */
 }

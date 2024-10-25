@@ -1,0 +1,70 @@
+.Layout {
+    display: grid;
+    grid-template-rows: 1.5fr 4fr 1fr; /* Tres filas con proporciones */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    margin: 0; /* Elimina cualquier margen por defecto */
+    overflow: 'hidden'
+}
+
+.Layout .Header {
+    background-color: white;
+    display: grid;
+}
+.Header h1 {
+    margin-top: 5%;
+    color: #000066;
+    font-size: 45px;
+   
+}
+.header-title{
+    display: flex;
+    justify-content: center !important;
+}   
+
+.Layout .Body {
+    background-color: white;
+ 
+}
+
+.Layout .Footer {
+    background-color: blue;
+}
+
+.line-center{
+    text-decoration: underline;
+    text-decoration-color: #DB141C
+}
+
+.boton-menu {
+   border: none !important;  
+   height: 70px;
+   align-items: center;
+   color: #000066 !important;
+   text-transform: none !important;
+   font-size: 20px !important;
+}
+
+.boton-menu:hover {
+    background-color: #000066;   
+    color: #FFFFFF !important;            
+}
+  
+.boton-menu.active {
+    background-color: #000066 !important; 
+    color: #FFFFFF !important;              
+  }
+  
+.boton-icono-menu{
+    width: 40px ;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;  
+    border-radius: 50%,;
+}
+
+
+
+.section-content {
+    background-color: white;  
+}

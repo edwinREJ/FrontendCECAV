@@ -1,0 +1,30 @@
+body {
+    /* fallback for old browsers */
+    background: #6a11cb;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+  /* StylesSignIn.css */
+.MDBCard {
+    background-color: #2c2f33; /* Fondo más oscuro para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+.MDBInput {
+    background-color: #23272a; /* Fondo de entrada */
+    border-radius: 4px; /* Bordes redondeados para inputs */
+    color: white; /* Color de texto */
+}
+
+.MDBInput:focus {
+    border-color: #7289da; /* Color de borde en foco */
+}
+
+.text-white {
+    color: #ffffff; /* Texto blanco */
+}

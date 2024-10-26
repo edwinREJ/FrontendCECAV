@@ -1,7 +1,7 @@
 import './StylesHome.css';
 import MainMenu from './MainMenu';
 import { Outlet } from "react-router-dom";
-import SignIn from '../login/signIn/SignIn';
+import SignIn from '../login/SignIn';
 import { Button } from '@mui/material';
 import { useState } from 'react';
 
@@ -11,9 +11,6 @@ function Layout() {
 
     // Funciones para manejar la apertura y el cierre del modal
     const handleClickOpen = () => {
-        console.log("Botón de Login clickeado");
-        console.log("modalShow:", modalShow);
-
         setModalShow(true);
     };
     
@@ -41,7 +38,7 @@ function Layout() {
                 {/* Contenido del footer */}
             </div>
 
-            {/* Llama al componente SignIn aquí y pasa las props necesarias */}
+            {/* Modal para iniciar sesión */}
             <SignIn modalShow={modalShow} setModalShow={setModalShow} />
         </div>
     );

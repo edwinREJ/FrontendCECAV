@@ -1,0 +1,75 @@
+/* Estilos del body */
+body {
+  background: #6a11cb; /* Fondo de pantalla de ejemplo */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+}
+
+/* Estilos para el card de MDB */
+.MDBCard {
+  background-color: white; /* Fondo blanco para el formulario */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+/* Color de texto en los labels de entrada y otros textos */
+label,
+.modal-content h2,
+.modal-content p,
+.modal-content a,
+.modal-content .text-blue {
+  color: #000066 !important; /* Color azul para las etiquetas y textos */
+}
+
+/* Estilos para los inputs de MDB */
+.MDBInput {
+  color: #000066; /* Color de texto azul para los inputs */
+}
+
+/* Color de las etiquetas de entrada */
+.MDBInput label {
+  color: #000066 !important; /* Aseguramos que el color de las etiquetas sea azul */
+}
+
+/* Color de texto en los inputs al ser enfocados */
+.MDBInput:focus {
+  border-color: #7289da; /* Color de borde en foco */
+}
+
+
+
+
+/* Estilos para el botón de cierre */
+.button-close {
+  background-color: transparent;
+  border: none;
+  color: #000066 !important; /* Color azul para el botón de cierre */
+  font-size: 1.5rem !important;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  height: 5%;
+  width: 5%;
+}
+
+.button-close:hover {
+  color: white !important; 
+  background-color: red;
+}
+
+/* Estilo para enlaces */
+.text-blue {
+  color: #000066 !important; /* Color azul para textos de enlaces */
+}
+
+/* Color de texto azul para elementos específicos */
+.modal-content .text-blue {
+  color: #000066; /* Color azul para textos en el modal */
+}
+/* Estilos para el texto de la pregunta y enlace de registro */
+.mb-0 {
+  color: #000066 !important; /* Aseguramos que el color del texto sea azul */
+}
+
+.mb-0 a {
+  color: #000066 !important; /* Aseguramos que el color del enlace sea azul */
+}
